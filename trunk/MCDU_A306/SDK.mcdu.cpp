@@ -1,5 +1,5 @@
 #include <windows.h>
-#include <cstdio>
+
 //    Set up gauge header
 
 char mcdu_gauge_name[]		 = GAUGE_NAME;
@@ -63,7 +63,6 @@ BOOL FSAPI    mcdu_selector_mouse_cb( PPIXPOINT relative_point, FLAGS32 mouse_fl
 {
   selected_mcdu_list=mcdu_init_list;
   PELEMENT_HEADER  mcdu_list     = &mcdu_background.header;
-  printf("je suis là");
   return TRUE;
 }
 
