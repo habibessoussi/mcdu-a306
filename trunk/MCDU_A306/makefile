@@ -1,5 +1,3 @@
-# makefile
-# Copyright (c) 2000 Microsoft Corporation.  All rights reserved.
 
 
 INCDIR	= .\inc
