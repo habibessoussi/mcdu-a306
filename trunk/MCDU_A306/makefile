@@ -7,17 +7,17 @@ DESTDIR	= .
 INCS	= -I$(INCDIR)
 LIBS	= user32.lib gdi32.lib kernel32.lib
 
-ifdef DEBUG
+!ifdef DEBUG
 
 C_FLAGS	= /Z7
 L_FLAGS	= /DEBUG
 
-else
+!else
 
 C_FLAGS	=
 L_FLAGS	=
 
-endif
+!endif
 
 
 goal:	BE-MCDU_A306.gau
